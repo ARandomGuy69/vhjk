@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CartierChat</title>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="login/login.css">
+
+	<!-- Firebase -->
+	<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-auth.js"></script>
+	<script src="firebase/initFirebase.js"></script>
+</head>
+
+
+<body>
+	<form id="loginForm">
+		<h1>CartierChat Login</h1>
+		<input type="email" placeholder="Email" id="email">
+		<h2></h2>
+    <input type="password" placeholder="Password" id="password">
+		<p id="error"></p>
+		<input type="submit" value="      Login     ">
+    <style>
+      input {
+        color: black;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+}
+      }
+      input:hover {
+        opacity: 0.5;
+	</style>
+	</form>
+	<script src="login/login.js"></script>
+</body>
+</html>
